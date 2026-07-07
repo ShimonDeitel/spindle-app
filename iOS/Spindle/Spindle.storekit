@@ -1,0 +1,28 @@
+{
+  "identifier" : "Spindle",
+  "nonRenewingSubscriptions" : [],
+  "products" : [
+    {
+      "displayPrice" : "3.99",
+      "familyShareable" : false,
+      "internalID" : "spindle_pro",
+      "localizations" : [
+        {
+          "description" : "Spindle Pro unlocks Twist-angle and grist calculator with trend graphs",
+          "displayName" : "Spindle Pro",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.shimondeitel.fiberjournal.pro",
+      "referenceName" : "Spindle Pro",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+  },
+  "subscriptionGroups" : [],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
