@@ -9,15 +9,7 @@ struct SpinSession: Identifiable, Codable, Equatable {
     var sessionDate: Date
     var notes: String
 
-    init(
-        id: UUID = UUID(),
-        createdAt: Date = Date(),
-        fiberSource: String = "",
-        ply: String = "",
-        yardageOut: Double = 0,
-        sessionDate: Date = Date(),
-        notes: String = ""
-    ) {
+    init(id: UUID = UUID(), createdAt: Date = Date(), fiberSource: String = "", ply: String = "", yardageOut: Double = 0, sessionDate: Date = Date(), notes: String = "") {
         self.id = id
         self.createdAt = createdAt
         self.fiberSource = fiberSource
